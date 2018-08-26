@@ -2,6 +2,7 @@ body {
     background-image: url("../images/backgroung.png");
     height: 50%;
     background-position: center;
+    background-attachment: fixed;
     background-color: lightblue;
 
 
@@ -13,7 +14,7 @@ header {
     padding: 40px;
     width: 50%;
     text-align: center;
-    font-size: 90px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
     color: #38291F;
 }
@@ -23,8 +24,8 @@ p {
 }
 
 .instructions {
-    width: 50%;
-    margin: 30px auto;
+    width: 53%;
+    margin: -5px auto;
     text-align: center;
     color: #C99167;
 }
@@ -34,10 +35,12 @@ p {
     height: 80px;
     padding: 20px 20px;
     text-align: center;
-    margin: 10px auto;
+    margin: 20px auto 10px auto;
     flex-flow: column;
     font-size: 30px;
+    color: #75573E;
 }
+
 
 
 .match {
@@ -96,5 +99,5 @@ p {
 i {
     font-size: 40px;
     padding: 0 10px;
-    color: #38291F
+    color: #38291F;
 }
